@@ -81,7 +81,7 @@ When you open the APK, Android may show **"App blocked to protect your device"**
 **Prefer a computer?** Turn on USB debugging and run:
 
 ```
-adb install LogicsuruSmartwatch.apk
+adb install LogicsuruWatch.apk
 ```
 
 ### First-time setup
