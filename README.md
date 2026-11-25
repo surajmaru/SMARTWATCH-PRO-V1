@@ -49,7 +49,7 @@ Flash the Firmware using the dedicated **LogicSuru Flasher** web interface:-
 
 The official companion app connects your phone to the watch over Bluetooth Low Energy and handles everything in one place.
 
-**[⬇️ Download the latest APK](../../releases/latest)**
+**[Download the latest APK](../../releases/latest)**
 
 ### What the app does
 
@@ -59,8 +59,6 @@ The official companion app connects your phone to the watch over Bluetooth Low E
 - **Settings** – Watch face, brightness, screen timeout, Do Not Disturb, 12/24-hour clock, weather city and Wi-Fi
 - **Time sync** – Keeps the watch clock correct
 - **Stays connected** – Runs in the background, reconnects on its own, and can start again after a reboot
-
-**Requirements:** Android 8.0 or newer with Bluetooth LE. The app has no analytics and makes no network calls. Every permission is optional, and the feature it controls just stays off if you skip it.
 
 ### Installing the app
 
@@ -90,7 +88,7 @@ adb install LogicsuruWatch.apk
 2. Turn on **Notification Access** for LOGICSURU Watch in Android settings so notifications can reach the watch
 3. Turn on the watch and tap **Scan** in the app to connect
 
-## Configure your smartwatch with your mobile (bluetooth & wifi):-
+## Or use the web configurator if dont want to install tha App:-
 
 You can use the Android app above, or the web version (Android Chrome):
 
