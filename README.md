@@ -45,7 +45,7 @@ Flash the Firmware using the dedicated **LogicSuru Flasher** web interface:-
 
 **[Open LogicSuru Flasher](https://logicsuruflasher.vercel.app/)**
 
-## 📱 LOGICSURU Watch Android App
+## LOGICSURU Watch Android App
 
 The official companion app connects your phone to the watch over Bluetooth Low Energy and handles everything in one place.
 
