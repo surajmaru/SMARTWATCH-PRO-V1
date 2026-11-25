@@ -18,8 +18,8 @@
 - Universal PCB board
 
 ## Schematics:-
-<img width="500" height="500" alt="c3-smartwatch_bb" src="https://github.com/user-attachments/assets/6e4c127b-2770-48cb-99bc-01d9ffd55d5a" />
-<img width="800" height="400" alt="Screenshot 2026-10-24 011615" src="https://github.com/user-attachments/assets/5a4461b6-6774-4692-9d5c-b1cbfa072a77" />
+<img width="300" height="300" alt="c3-smartwatch_bb" src="https://github.com/user-attachments/assets/6e4c127b-2770-48cb-99bc-01d9ffd55d5a" />
+<img width="600" height="300" alt="Screenshot 2026-10-24 011615" src="https://github.com/user-attachments/assets/5a4461b6-6774-4692-9d5c-b1cbfa072a77" />
 
 ## Features & Specifications
 
