@@ -64,7 +64,7 @@ The official companion app connects your phone to the watch over Bluetooth Low E
 
 ### Installing the app
 
-When you open the APK, Android may show **"App blocked to protect your device"**. This is Google Play Protect being extra careful with apps installed outside the Play Store that use **notification access** (needed to show your phone's notifications on the watch). The full source code is in this repo.
+When you open the APK, Android may show **"App blocked to protect your device"**. This is Google Play Protect being extra careful with apps installed outside the Play Store that use **notification access** (needed to show your phone's notifications on the watch).
 
 <img width="250" height="360" alt="install_error" src="https://github.com/user-attachments/assets/50fa54bb-f19e-4a92-ad89-f913e91b1a5f" />
 
