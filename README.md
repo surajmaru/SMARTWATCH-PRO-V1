@@ -35,7 +35,9 @@ A custom-built smartwatch powered by the **ESP32-C3 SuperMini**, combining every
 - **Flashlight Mode** – Boosts screen brightness to 100% for improved visibility in the dark.
 - **Customizable Settings** – Adjust screen timeout, brightness, watch faces, clock settings, and other preferences.
 - **System Status** – View detailed information about the watch and its system.
-- **Phone Notifications (In Development)** – Smartphone notification support is planned through a dedicated companion app currently under development.
+- **Phone Notifications** – See your phone's notifications on the watch using the **LOGICSURU Watch** Android app (see below).
+- **Call Alerts** – The watch shows who is calling, and you can decline the call from the watch.
+- **Music Controls** – See what's playing and play/pause or skip tracks from your wrist.
 
 ## Firmware Flash
 
@@ -43,7 +45,52 @@ Flash the Firmware using the dedicated **LogicSuru Flasher** web interface:-
 
 **[Open LogicSuru Flasher](https://logicsuruflasher.vercel.app/)**
 
-## Configure you smartwatch with your mobile (bluetooth & wifi):-
+## 📱 LOGICSURU Watch Android App
+
+The official companion app connects your phone to the watch over Bluetooth Low Energy and handles everything in one place.
+
+**[⬇️ Download the latest APK](../../releases/latest)**
+
+### What the app does
+
+- **Notifications** – Forward phone notifications to the watch, with a per-app on/off list
+- **Calls** – Caller name or number on the watch, and decline from the watch
+- **Music** – Now playing info plus play/pause and next track
+- **Settings** – Watch face, brightness, screen timeout, Do Not Disturb, 12/24-hour clock, weather city and Wi-Fi
+- **Time sync** – Keeps the watch clock correct
+- **Stays connected** – Runs in the background, reconnects on its own, and can start again after a reboot
+
+**Requirements:** Android 8.0 or newer with Bluetooth LE. The app has no analytics and makes no network calls. Every permission is optional, and the feature it controls just stays off if you skip it.
+
+### Installing the app
+
+When you open the APK, Android may show **"App blocked to protect your device"**. This is Google Play Protect being extra careful with apps installed outside the Play Store that use **notification access** (needed to show your phone's notifications on the watch). The full source code is in this repo.
+
+**To install it:**
+
+1. Open the **Google Play Store** app
+2. Tap your **profile picture** (top right) → **Play Protect** → tap the **⚙️ settings** icon
+3. Turn **off** "Scan apps with Play Protect"
+4. Install the APK
+5. Go back and turn **"Scan apps with Play Protect"** back **on**
+
+> Menu names can differ slightly between phone brands and Android versions.
+
+**Prefer a computer?** Turn on USB debugging and run:
+
+```
+adb install LogicsuruSmartwatch.apk
+```
+
+### First-time setup
+
+1. Open the app and follow the setup steps (Bluetooth, notifications, calls, background)
+2. Turn on **Notification Access** for LOGICSURU Watch in Android settings so notifications can reach the watch
+3. Turn on the watch and tap **Scan** in the app to connect
+
+## Configure your smartwatch with your mobile (bluetooth & wifi):-
+
+You can use the Android app above, or the web version (Android Chrome):
 
 https://logicsuruwatch.vercel.app/
 
