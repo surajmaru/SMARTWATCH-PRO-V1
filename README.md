@@ -49,6 +49,8 @@ Flash the Firmware using the dedicated **LogicSuru Flasher** web interface:-
 
 The official companion app connects your phone to the watch over Bluetooth Low Energy and handles everything in one place.
 
+<img width="120" height="480" alt="smartwatch-app" src="https://github.com/user-attachments/assets/53711a64-2b54-4323-a794-f742d88382c9" />
+
 **[Download the latest APK](../../releases/latest)**
 
 ### What the app does
